@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta nmae="viewport" content="widht-device.width, initial sacle = 1.0" >
+   
+    <title>Sweet Home pasteleria</title>
+</head>
+
+<body bgcolor="#EFEBEC ">
+    <font face="Felix Titling">
+    <h1 align="center">Bienvenidos a Sweet Home </h1>
+    <div align="center"><img src="logo.jpg" alt="Logo pasteleria" scale="1" ></div>
+    <h3 align="center">Pasteles con sabor a casa  </h3>
+    <hr>
+  <section>
+      <h2 align="center">Menu de sabores</h2>
+
+      <table  border = "1px" align="center">
+        <tr>
+            <th rowspan="2">Sabor</th>
+            <th colspan="3">Precio por tamaño (MXN) </th>
+        </tr>
+        <tr>
+            
+            <th>Chico</th>
+            <th>Mediano</th>
+            <th>Grande</th>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td>30</td>
+            <td>60</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Vainilla </td>
+            <td>35</td>
+            <td>70</td>
+            <td>130</td>
+        </tr>
+        <tr> 
+            <td>Fresa </td>
+            <td>40</td>
+            <td>80</td>
+            <td>150</td>
+        </tr>
+        <tr> 
+            <td>Nuez</td>
+            <td>50</td>
+            <td>90</td>
+            <td>160</td>
+        </tr>
+    </table>
+  </section>
+</font>
+  <hr>
+  <h2 align="center">Menu de adornos </h2>
+  Todos los pasteles incluyen un adornos, puede incluir alguno extra por el precio mostrado.
+
+  <table summary="Tabla de adornos">
+    <tr>
+      <th abbr="Imagen del producto" scope="col">Imagen</th>
+      <th abbr="Datos del producto" scope="col">Descripción</th>
+    </tr>
+  
+    <tr>
+      <td>
+        <img src="flores.jpg" alt="Flores de Chocolate" width="300px" height="300px"/>
+      </td>
+      <td>
+        <h4> Flores de Chocolate</h4>
+        <p> Sabrosa flores de chocolate de distintos colores: <strong>70 $</strong></p>
+      </td>
+    </tr>
+    <tr>
+        <td>
+          <img src="fruta.jpg" alt="Fruta" width="300px" height="300px"/>
+        </td>
+        <td>
+          <h4> Fruta de temporada </h4>
+          <p> Fruta fresca de temporada (Invierno: fresas, zarzamoras / Primavera: Mango, Manzana / Verano: Kiwi,cereza / Otoño: Duraznos, Peras): <strong>20 $</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="crema.jpg" alt="Crema Pastelera " width="300px" height="300px"/>
+        </td>
+        <td>
+          <h4> Crema pastelera </h4>
+          <p> Diseños creados con una rica crema pastelera creación original de nuestro Chef: <strong>50 $</strong></p>
+        </td>
+      </tr>
+  </table>
+  <br>
+  <hr>
+  <h3 align="center">Realiza tu pedido</h3>
+
+    <label for="Nombre">Nombre</label><br>
+    <input type="text" id="Nombre" name="Nombre"><br><br>
+
+    <label for="correo1">Correo de Contacto</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+    
+    <label for="tel1">Número Telefonico</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+    <h2>Tamaño</h2>
+    <input type="radio" id="pequeño" name="Tamanio" value="pequeño">
+    <label for="pequeño">Pequeño</label>  &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="Mediano" name="Tamanio" value="Mediano">
+    <label for="Mediano">Mediano</label> &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="Grande" name="Tamanio" value="Grande">
+    <label for="Grande">Grande</label><br><br>
+
+
+    <h2>Sabores</h2>
+    <p>Se puede convinar los sabores por un costo adicion del 20% </p>
+    <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate">
+    <label for="sabor1">Chocolate</label>      &nbsp;&nbsp;&nbsp;&nbsp; 
+    <input type="checkbox" id="sabor2" name="sabor1" value="Vainilla">
+    <label for="sabor3">Vainilla</label>     &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="sabor3" name="sabor3" value="fresa">
+    <label for="sabor3">Fresa</label>      &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="sabor4" name="sabor4" value="Nuez">
+    <label for="sabor4">Nuez</label><br>   
+
+    
+    <h2>Adornos</h2>
+    <input type="checkbox" id="Flor" name="Flor" value="Flor">
+    <label for="Flor">Flores de chocolate</label>      &nbsp;&nbsp;&nbsp;&nbsp; 
+    <input type="checkbox" id="Fruta" name="Fruta" value="Fruta">
+    <label for="Fruta">Fruta de temporada</label>      &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="Crema" name="Crema" value="Crema">
+    <label for="Crema">Crema pastelera</label>  
+
+    <br><br>
+    <label for="Descripción">Detalles del pastel</label><br>
+    <input type="text" id="Nombre" name="Nombre"><br><br>
+<hr>
+    <footer>
+        <address>
+          Dirección: Avenida Barrio bonito, Colonia Alejada Numero 32<br>
+          Telefono: 55322323
+        </address>
+      
+        <p>Horario de atención: Lunes a Sabado de 9-21 horas. <br> &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Domingos 10-20 horas</p>
+      </footer>
+</body>
+</html>
+
+
