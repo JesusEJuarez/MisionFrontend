@@ -23,10 +23,149 @@ li a:hover {
 }
 
 .letra{
-    font-family: Lucida sans-serif
+    font-family: Lucida sans-serif;
 
 }
 .title{
     color: rgb(46,78,204);
-    font-family: Lucida sans-serif
+    font-family: Lucida sans-serif;
+    font-size: 20px;
 }
+.espacio{
+    margin: 10px;
+    width: 300px;
+}
+.boton1{
+    padding: 10px;
+    background-color: rgb(46,78,204);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+
+}
+.conteiner{
+    display: flex;
+    flex-wrap: row;
+
+}
+
+.conteiner div{
+   
+    width: 50%;
+    
+    
+}
+
+
+.conteiner div h1{
+    color: rgb(31,62,114);
+    font-weight: 700; 
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+.conteiner div p{
+    font-weight: 250;
+    text-align: justify;
+    margin-left: 6px;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.imagenEnfermera{
+    width: 500px;
+    height: 550px;
+    float: left;
+
+}
+
+.vacunas{
+    display: flex;
+    justify-content: space-around;
+    padding: 27px 0px 17px;
+    margin-top: 30px;
+    opacity: 1;
+}
+
+
+.razones{
+    display: flex;
+    flex-flow: column wrap;
+}
+.why{
+    padding: 50px;
+}
+.why h2{
+    color: rgb(31,62,114);
+    font-weight: 550;
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+.why p{
+    color: rgb(109,123,147);
+    padding: 14px 16px;
+}
+
+.cuadros{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 12px;
+    
+}
+.cuadro{
+    border: solid rgba(220, 220, 220, 0.315);
+    border-radius: 9px;
+    width: 240px;
+    height: 300px;
+    padding: 20px;
+}
+.piePagina{
+    background-color: rgba(238,243,255);
+    display: flex;
+    flex-flow: row;
+}
+.bajo{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(238,243,255);
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+address{
+    font-weight: 600;
+    font-size: small;
+    
+}
+.piePagina div{
+    flex: 2 2 300px
+    
+}
+
+.piePagina div h5{
+    color: rgb(31,62,114);
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    
+}
+.piePagina div h4{
+    color: rgb(46,78,204);
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    
+}
+
+.piePagina div p{
+    color: rgb(56, 57, 63);
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    
+}
+
+
+
+
+
+
