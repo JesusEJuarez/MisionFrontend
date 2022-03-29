@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(59, 2, 13);
+}
+.pokedex div{
+    background-color:  rgb(221, 8, 47);
+    display: flex;
+    flex-flow: column;
+
+}
+.poke-card{
+
+    background-color: rgb(255, 255, 255);
+}
+.pokename{
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.poke-types div{
+    display: flex;
+    flex-flow: row;
+}
